@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>mbTimer | Precision JS Timer</title>
+    <style>
+        body{background:#f2f2f2;text-align:center}div{display:block;margin-bottom:5px}span.tick{margin-right:10px}
+    </style>
+
+    <script type="text/javascript" src="0.1.0/mb-timer.min.js"></script>
+</head>
+
+<body>
+    <script>
+        var tick = 0;
+
+        var timer = new mbTimer(500, function() {
+            tick++;
+
+            var newLine = "<div> <span class='tick'>Tick "+tick+":</span> <span class='time'>"+new Date().toISOString()+"</span> </div>";
+
+            document.body.innerHTML = newLine + document.body.innerHTML;
+        });
+
+        // Start with debug enabled
+        timer.start(true);
+    </script>
+</body>
+</html>

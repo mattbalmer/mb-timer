@@ -1,0 +1,19 @@
+{
+    "name": "mb-timer",
+    "version": "0.1.0",
+    "description": "Precision JavaScript timer for recurring events.",
+    "author": "Matt Balmer <matt@mattbalmer.com>",
+    "licenses": "MIT",
+    "filename": "mb-timer.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattbalmer/mb-timer"
+    },
+    "keywords": [
+        "javascript",
+        "timer",
+        "timeout",
+        "interval",
+        "precise"
+    ]
+}
