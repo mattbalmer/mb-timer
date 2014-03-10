@@ -1,0 +1,22 @@
+{
+    "name": "mb-timer",
+    "main": "mb-timer.min.js",
+    "version": "0.1.0",
+    "homepage": "https://github.com/mattbalmer/mb-timer",
+    "authors": [
+        "Matt Balmer <matt@mattbalmer.com>"
+    ],
+    "description": "Precision JavaScript timer for recurring events.",
+    "keywords": [
+        "javascript",
+        "timer",
+        "timeout",
+        "interval",
+        "precise"
+    ],
+    "license": "MIT",
+    "ignore": [
+        ".gitignore",
+        "index.html"
+    ]
+}
