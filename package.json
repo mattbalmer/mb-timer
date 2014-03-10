@@ -1,6 +1,6 @@
 {
     "name": "mb-timer",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Precision JavaScript timer for recurring events.",
     "author": "Matt Balmer <matt@mattbalmer.com>",
     "licenses": "MIT",
