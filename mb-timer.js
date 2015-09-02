@@ -1,5 +1,5 @@
 /*
- * mb-timer v0.1.0
+ * mb-timer v0.1.2
  * Precision JavaScript timer for recurring events.
  * (c) 2014 Matthew Balmer http://mattbalmer.com
  * License: MIT

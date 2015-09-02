@@ -1,7 +1,7 @@
 {
     "name": "mb-timer",
     "main": "mb-timer.min.js",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "homepage": "https://github.com/mattbalmer/mb-timer",
     "authors": [
         "Matt Balmer <matt@mattbalmer.com>"
